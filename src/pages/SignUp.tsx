@@ -66,7 +66,6 @@ export default function SignUpPage() {
                 fullWidth
                 label="Full Name"
                 autoFocus
-                value="Admin"
               />
             </Grid>
             <Grid item xs={12}>
@@ -76,7 +75,6 @@ export default function SignUpPage() {
                 fullWidth
                 label="Email Address"
                 autoComplete="email"
-                value="admin2@example.com"
               />
             </Grid>
             <Grid item xs={12}>
@@ -87,7 +85,6 @@ export default function SignUpPage() {
                 label="Password"
                 type="password"
                 autoComplete="new-password"
-                value="Admin1$!"
               />
             </Grid>
             <Grid item xs={12}>
@@ -98,7 +95,6 @@ export default function SignUpPage() {
                 label="Photo URL"
                 type="url"
                 autoComplete="photo"
-                value="https://example.com/example.jpg"
               />
             </Grid>
 

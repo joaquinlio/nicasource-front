@@ -61,7 +61,6 @@ export default function LoginPage() {
                 fullWidth
                 label="Email Address"
                 autoComplete="email"
-                value="admin@example.com"
               />
             </Grid>
             <Grid item xs={12}>
@@ -72,7 +71,6 @@ export default function LoginPage() {
                 label="Password"
                 type="password"
                 autoComplete="new-password"
-                value="Admin1$!"
               />
             </Grid>
           </Grid>
